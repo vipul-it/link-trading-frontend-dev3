@@ -89,15 +89,15 @@
             />
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <div class="hidden w-full md:block md:w-auto " id="navbar-dropdown">
           <ul
-            class="flex flex-col lg:items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-cblack font-medium md:dark:bg-gray-900 dark:border-pcolor/30"
+            class="flex flex-col justify-center gap-2 md:items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-cblack font-medium md:dark:bg-gray-900 dark:border-pcolor/30 "
           >
             <li>
               <a
                 href="/"
-                class="block py-2 px-3 text-white bg-pcolor rounded md:bg-transparent md:text-scolor md:p-0 md:dark:text-scolor dark:bg-blue-600 md:dark:bg-transparent"
-                aria-current="page"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-pcolor/50 md:hover:bg-transparent md:border-0 md:hover:text-scolor md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                
                 >Home</a
               >
             </li>
@@ -195,7 +195,8 @@
             <li>
               <a
                 href="/affiliate-program/"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-pcolor/50 md:hover:bg-transparent md:border-0 md:hover:text-scolor md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 px-3 text-white bg-pcolor rounded md:bg-transparent md:text-scolor md:p-0 md:dark:text-pcolor dark:bg-blue-600 md:dark:bg-transparent"
+                aria-current="page"
                 >Affiliate Program
               </a>
             </li>
@@ -224,7 +225,7 @@
 
     <!-- HomePage section 1 start  -->
     <section
-      class="bg-cwhite pt-4 md:pt-10 px-4 md:px-16 min-h-80 bg-no-repeat md:bg-contain bg-center bg-cover relative"
+      class="bg-cwhite pt-4 -mb-16 md:pt-10 px-4 md:px-16 min-h-80 bg-no-repeat md:bg-contain bg-center bg-cover relative"
       style="background-image: url('/assets/page-02.png')"
     >
       <div class="absolute inset-0 bg-white bg-opacity-90"></div>
@@ -233,11 +234,9 @@
           <h1
             class="md:text-2xl text-xl text-center font-semibold text-cblack pt-2"
           >
-          Develop the best Linkbuilding platform. Sharing our referral link and earning up to 15% of the commission
+            Develop the best Linkbuilding platform. Sharing our referral link
+            and earning up to 15% of the commission
           </h1>
-          <!-- <h4 class="mt-3 md:text-2xl text-center font-semibold text-cblack">
-            Speedup your SEO results and be ahead of your challengers
-          </h4> -->
         </div>
         <div
           class="flex justify-center items-center rounded-xl mt-5 md:mt-8 px-2"
@@ -250,7 +249,7 @@
               placeholder="Your Website"
             />
             <button
-              class="p-3 text-white lg:bg-pcolor bg-scolor text-sm md:text-lg rounded-r-3xl hover:lg:bg-scolor hover:bg-pcolor transition duration-300"
+              class="p-3 text-white bg-pcolor text-sm md:text-lg rounded-r-3xl hover:bg-scolor"
               type="submit"
             >
               Register
@@ -261,102 +260,175 @@
     </section>
     <!-- ======= HomePage section 1 end -->
 
-    <!-- FAQ section start  -->
+    <!-- Work section start  -->
     <section
-      class="bg-cwhite -mt-16 mb-20 z-20 relative px-4 md:px-16 mx-auto w-full max-w-screen-xl"
+      class="-mt-14 z-20 relative px-4 md:px-16 mx-auto w-full max-w-screen-xl bg-[#fff]"
     >
-      <div
-        id="accordion-color"
-        data-accordion="collapse"
-        data-active-classes="bg-pcolor/30 dark:bg-gray-800 text-scolor dark:text-white"
-      >
-        <h2 id="accordion-color-heading-1">
-          <button
-            type="button"
-            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-800 border border-b-0 border-pcolor/50 rounded-t-xl focus:ring-0 focus:ring-scolor/50 dark:focus:ring-blue-800 dark:border-pcolor/30 dark:text-gray-400 hover:bg-pcolor/30 dark:hover:bg-gray-800 gap-3"
-            data-accordion-target="#accordion-color-body-1"
-            aria-expanded="true"
-            aria-controls="accordion-color-body-1"
-          >
-            <span>What is Link Trading Exchange?</span>
-            <svg
-              data-accordion-icon
-              class="w-3 h-3 rotate-180 shrink-0"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 10 6"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9 5 5 1 1 5"
-              />
-            </svg>
-          </button>
-        </h2>
-        <div
-          id="accordion-color-body-1"
-          class="hidden"
-          aria-labelledby="accordion-color-heading-1"
-        >
-          <div
-            class="p-5 border border-b-0 border-pcolor/50 dark:border-pcolor/30 dark:bg-gray-900"
-          >
-            <p class="mb-2 text-gray-800 dark:text-gray-400">
-              A special platform for all SEO enthusiasts Link Trading Exchange
-              boosts SEO results significantly, as we ensure SEO professionals
-              always have time for creativity, strategy, and experiments while
-              we take care of routine processes. With us, you’ll find
-              unexploited opportunities to build a powerful backlink profile.
-            </p>
-          </div>
+      <h2 class="text-3xl md:text-5xl text-capitalize font-semibold py-6 text-center">
+        How it Works
+      </h2>
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
+        <div class="flex justify-center items-center">
+          <img
+            src="/assets/c/Backlink Type-02.png"
+            style="width: 300px"
+            alt=""
+          />
         </div>
-        <h2 id="accordion-collapse-heading-3">
-          <button
-            type="button"
-            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-800 border border-pcolor/50 focus:ring-0 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-pcolor/30 dark:text-gray-400 hover:bg-pcolor/30 dark:hover:bg-gray-800 gap-3"
-            data-accordion-target="#accordion-collapse-body-3"
-            aria-expanded="false"
-            aria-controls="accordion-collapse-body-3"
-          >
-            <span>What sets us apart from the others? </span>
-            <svg
-              data-accordion-icon
-              class="w-3 h-3 rotate-180 shrink-0"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 10 6"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9 5 5 1 1 5"
-              />
-            </svg>
-          </button>
-        </h2>
         <div
-          id="accordion-collapse-body-3"
-          class="hidden"
-          aria-labelledby="accordion-collapse-heading-3"
+          class="flex flex-col justify-center items-left p-5 md:pl-24 divide-y gap-4 divide-dashed divide-pcolor "
         >
-          <div
-            class="p-5 border border-t-0 border-pcolor/50 dark:border-pcolor/30"
-          >
-            <p class="mb-2 text-gray-800 dark:text-gray-400">
-              We take only a few clicks to apply a backlink.
-            </p>
+          <div>
+            <h1
+              class="md:text-2xl text-xl text-left font-semibold text-cblack pt-3"
+            >
+              <ul class="list-disc">
+                <li>Register on the Link Trading Exchange</li>
+              </ul>
+            </h1>
+          </div>
+          <div>
+            <h1
+              class="md:text-2xl text-xl text-left font-semibold text-cblack pt-3"
+            >
+              <ul class="list-disc">
+                <li>Start Sharing</li>
+              </ul>
+            </h1>
+          </div>
+          <div>
+            <h1
+              class="md:text-2xl text-xl text-left font-semibold text-cblack pt-3"
+            >
+              <ul class="list-disc">
+                <li>Get Paid</li>
+              </ul>
+            </h1>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="my-2 mt-5 md:mt-5 focus:outline-none text-cblack w-full hover:text-white bg-pcolor hover:bg-scolor focus:ring-0 focus:ring-yellow-300 font-medium rounded-0 text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900"
+            >
+              Join the Affiliate Program
+            </button>
           </div>
         </div>
       </div>
     </section>
-    <!-- ======= FAQ section end -->
+    <!-- ======= work section end -->
+
+    <!-- ======= Why us? section start -->
+
+    <section class="mx-auto w-full max-w-screen-xl px-4 md:px-16 mt-5 py-2">
+      <!-- Card content -->
+      <div class="mb-10 mt-2">
+        <div>
+          <h2 class="text-3xl md:text-5xl text-center my-6 font-semibold">Why us?</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div
+            class="border p-4 shadow-pcolor hover:shadow shadow-lg  bg-cwhite"
+          >
+            <div class="flex justify-center items-center">
+              <img src="/assets/Group 1.png" class="w-14" alt="Card Image" />
+            </div>
+            <div class="mt-2">
+              <h5 class="text-center text-2xl font-semibold">
+                One of the biggest link building platforms
+              </h5>
+            </div>
+          </div>
+
+          <div
+            class="border p-4 shadow-pcolor hover:shadow shadow-lg  bg-cwhite"
+          >
+            <div class="flex justify-center items-center">
+              <img src="/assets/Group 3.png" class="w-14" alt="Card Image" />
+            </div>
+            <div class="mt-2">
+              <h5 class="text-center text-2xl font-semibold">
+                Easy Transactions
+              </h5>
+            </div>
+          </div>
+
+          <div
+            class="border p-4 shadow-pcolor hover:shadow shadow-lg  bg-cwhite"
+          >
+            <div class="flex justify-center items-center">
+              <img src="/assets/Group 3.png" class="w-14" alt="Card Image" />
+            </div>
+            <div class="mt-2">
+              <h5 class="text-center text-2xl font-semibold">
+                Hardworking team
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= Why us? section end -->
+
+    <!-- ======= affiliate partner section start -->
+
+    <section class="mx-auto w-full max-w-screen-xl px-4 md:px-16 mt-5 py-2">
+      <div class="mb-10 mt-2">
+        <div>
+          <h2 class="text-3xl text-center md:text-5xl my-6 font-semibold">
+            What makes you a good affiliate partner?
+          </h2>
+        </div>
+        <div class="grid md:grid-cols-2 ">
+          <div class="border-t border-pcolor mx-2">
+            <div class="p-5">
+              <h5 class="text-left text-lg font-semibold">
+                <ul class="list-disc">
+                  <li>You have a decent knowledge of SEO</li>
+                </ul>
+              </h5>
+            </div>
+          </div>
+          <div class="border-t border-pcolor mx-2">
+            <div class="p-5">
+              <h5 class="text-left text-lg font-semibold">
+                <ul class="list-disc">
+                  <li>You are a content publisher</li>
+                </ul>
+              </h5>
+            </div>
+          </div>
+          <div class="border-t border-pcolor mx-2">
+            <div class="p-5">
+              <h5 class="text-left text-lg font-semibold">
+                <ul class="list-disc">
+                  <li>You are a data integrator</li>
+                </ul>
+              </h5>
+            </div>
+          </div>
+          <div class="border-t border-pcolor mx-2">
+            <div class="p-5">
+              <h5 class="text-left text-lg font-semibold">
+                <ul class="list-disc">
+                  <li>You are a course creator</li>
+                </ul>
+              </h5>
+            </div>
+          </div>
+          <div class="border-t border-pcolor mx-2">
+            <div class="p-5">
+              <h5 class="text-left text-lg font-semibold">
+                <ul class="list-disc">
+                  <li>You are an Agency</li>
+                </ul>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= affiliate partner section end -->
 
     <!-- Footer Section start  -->
     <footer class="bg-cblack dark:bg-gray-900 inset-x-0 bottom-0 lg:px-16">
@@ -389,7 +461,7 @@
                   class="border border-white hover:border-pcolor rounded-sm py-1"
                 >
                   <i
-                    class="fa-brands fa-facebook-f p-2 social-icons text-cwhite hover:text-scolor"
+                    class="fa-brands fa-facebook-f p-2 social-icons text-cwhite hover:text-pcolor"
                   ></i>
                 </a>
               </div>
@@ -399,7 +471,7 @@
                   class="border border-white hover:border-pcolor rounded-sm py-1"
                 >
                   <i
-                    class="fa-brands fa-instagram p-2 social-icons text-cwhite hover:text-scolor"
+                    class="fa-brands fa-instagram p-2 social-icons text-cwhite hover:text-pcolor"
                   ></i>
                 </a>
               </div>
@@ -409,7 +481,7 @@
                   class="border border-white hover:border-pcolor rounded-sm py-1"
                 >
                   <i
-                    class="fa-brands fa-linkedin p-2 social-icons text-cwhite hover:text-scolor"
+                    class="fa-brands fa-linkedin p-2 social-icons text-cwhite hover:text-pcolor"
                   ></i
                 ></a>
               </div>
@@ -419,7 +491,7 @@
                   class="border border-white hover:border-pcolor rounded-sm py-1"
                 >
                   <i
-                    class="fa-brands fa-x-twitter p-2 social-icons text-cwhite hover:text-scolor"
+                    class="fa-brands fa-x-twitter p-2 social-icons text-cwhite hover:text-pcolor"
                   ></i>
                 </a>
               </div>
@@ -465,7 +537,7 @@
       </div>
 
       <div class="w-full text-center py-4">
-        <span class="text-sm text-cblack dark:text-gray-800 font-poppins"
+        <span class="text-sm text-gray-500 dark:text-gray-400 font-poppins"
           >&copy; 2024
           <a href="#" class="hover:underline">All Rights Reserved.</a>
         </span>
